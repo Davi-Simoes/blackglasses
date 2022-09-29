@@ -1,0 +1,98 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    height: 150px;
+    width: 100%;
+    background-image: linear-gradient(to bottom ,rgb(12, 105, 101), rgb(0, 0, 0));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+    color: rgb(255, 255, 255);
+}
+body{
+    background-image: url(./images/wesley-favero-qMwRENYfamI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.menu li {
+   display: inline-block;
+   margin: 0px 10px;
+}
+.menu li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding: 10px 15px;
+   
+}
+.menu li a:hover {
+    background-color: rgb(255, 94, 0);
+    border-radius: 15px;
+    transition-duration: 0.3s;
+}
+
+.menu li a:nth-last-child(3){
+    background-color: rgb(255, 94, 0);
+    border-radius: 15px;
+}
+
+.title{
+    background-color: transparent;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+main section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+article li{
+    text-decoration: none;
+    border-radius: 2%;
+
+}
+main section article img{
+    position: relative;
+    left: 15px;
+}
+
+.card{
+    background-image: linear-gradient(to bottom ,rgb(12, 105, 101), rgb(0, 0, 0));
+    box-shadow: 2px 2px 8px rgb(0, 0, 0);
+    margin: 25px;
+    width: 350px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+.card:hover{
+    transform: scale(1.02);
+}
+
+article h3{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    align-items: center;
+    background-image: linear-gradient(to bottom,  rgb(12, 105, 101), rgb(0, 0, 0));
+    text-align: center;
+    height: 130px;
+    color: white;
+}
